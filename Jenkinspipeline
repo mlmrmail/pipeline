@@ -1,5 +1,6 @@
-stage "test"
-    echo "This is a test"
-
-stage "test1"
-    echo "bye"
+node {
+   stage 'Stage 1'
+   		echo 'Hello World 1'
+   stage 'Stage 2'
+   		echo 'Hello World 2'
+}
