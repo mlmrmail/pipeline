@@ -1,6 +1,8 @@
 node {
-   stage 'Stage xx'
-   		echo 'Hello World 1'
-   stage 'Stage 2xxx'
-   		echo 'Hello World 2'
+    stage('Stage Name') {
+        echo "Hello World !"
+    }
+    stage('Stage Name') {
+        echo "Good bye !"
+    }
 }
